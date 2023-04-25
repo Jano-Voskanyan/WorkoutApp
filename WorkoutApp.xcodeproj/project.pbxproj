@@ -21,6 +21,8 @@
 		E7B3680929F43FC500A78A4C /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3680829F43FC500A78A4C /* SessionController.swift */; };
 		E7B3680B29F43FCF00A78A4C /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3680A29F43FCF00A78A4C /* ProgressController.swift */; };
 		E7B3680D29F43FD800A78A4C /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3680C29F43FD800A78A4C /* SettingsController.swift */; };
+		E7E6A76629F7EB8600787FB7 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E6A76529F7EB8600787FB7 /* OverviewNavBar.swift */; };
+		E7E6A76829F7EC9E00787FB7 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E6A76729F7EC9E00787FB7 /* BaseView.swift */; };
 		E7F31AB829F58B2200149A6A /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F31AB729F58B2200149A6A /* SecondaryButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		E7B3680829F43FC500A78A4C /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		E7B3680A29F43FCF00A78A4C /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		E7B3680C29F43FD800A78A4C /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		E7E6A76529F7EB8600787FB7 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		E7E6A76729F7EC9E00787FB7 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		E7F31AB729F58B2200149A6A /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +141,7 @@
 				E7B367F329F415AC00A78A4C /* TabBarController.swift */,
 				E7B367FC29F4370C00A78A4C /* NavBarController.swift */,
 				E7B367FF29F43AC900A78A4C /* BaseController.swift */,
+				E7E6A76729F7EC9E00787FB7 /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				E7F31AB729F58B2200149A6A /* SecondaryButton.swift */,
+				E7E6A76529F7EB8600787FB7 /* OverviewNavBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 			files = (
 				E7B3680D29F43FD800A78A4C /* SettingsController.swift in Sources */,
 				E7B367E129F4117C00A78A4C /* OverviewController.swift in Sources */,
+				E7E6A76629F7EB8600787FB7 /* OverviewNavBar.swift in Sources */,
 				E7B367F429F415AC00A78A4C /* TabBarController.swift in Sources */,
 				E7B3680229F43D8E00A78A4C /* UIView + ext.swift in Sources */,
 				E7B367DD29F4117C00A78A4C /* AppDelegate.swift in Sources */,
@@ -263,6 +270,7 @@
 				E7B367FD29F4370C00A78A4C /* NavBarController.swift in Sources */,
 				E7B367FB29F4176100A78A4C /* Resources.swift in Sources */,
 				E7B367DF29F4117C00A78A4C /* SceneDelegate.swift in Sources */,
+				E7E6A76829F7EC9E00787FB7 /* BaseView.swift in Sources */,
 				E7B3680029F43AC900A78A4C /* BaseController.swift in Sources */,
 				E7B367F729F4168800A78A4C /* UIColor + ext.swift in Sources */,
 			);
@@ -416,7 +424,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.YanJan.WorkoutApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yan.WorkoutApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -447,7 +455,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.YanJan.WorkoutApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yan.WorkoutApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

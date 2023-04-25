@@ -29,7 +29,7 @@ enum Resources {
         }
         
         enum NavBar {
-//            static var overview = ""
+            static var overview = "Today"
             static var session = "High Intensity Cardio"
             static var progress = "Workout Progress"
             static var settings = "Settings"
@@ -61,10 +61,11 @@ enum Resources {
     
     enum Common {
         static var downArrow = UIImage(named: "downArrow")
+        static var addButton = UIImage(named: "addButton")
     }
     
     enum Fonts {
-        static func helveticaRegular(with size: CGFloat) -> UIFont {
+        static func helveticaRegular (with size: CGFloat) -> UIFont {
             UIFont(name: "Helvetica", size: size) ?? UIFont()
             
         }
