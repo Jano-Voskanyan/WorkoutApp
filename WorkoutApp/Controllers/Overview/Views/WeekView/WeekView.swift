@@ -42,7 +42,8 @@ extension WeekView {
         
         var weekdays = calendar.shortStandaloneWeekdaySymbols
 
-        if calendar.firstWeekday == 2 {
+        //MARK: - Bug:  works differently depending on the main language of the device, if the language is English everything works fine, if the language is Russian you need to change calendar.firstWeekday to 2 but in this case there is still one more bag
+        if calendar.firstWeekday == 1 {
             let sun = weekdays.remove(at: 0)
             weekdays.append(sun)
         }
