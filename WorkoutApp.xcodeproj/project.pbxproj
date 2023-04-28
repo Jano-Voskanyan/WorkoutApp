@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E79D318829FC178F00D71745 /* BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D318729FC178F00D71745 /* BaseInfoView.swift */; };
 		E7B367DD29F4117C00A78A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B367DC29F4117C00A78A4C /* AppDelegate.swift */; };
 		E7B367DF29F4117C00A78A4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B367DE29F4117C00A78A4C /* SceneDelegate.swift */; };
 		E7B367E129F4117C00A78A4C /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B367E029F4117C00A78A4C /* OverviewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E79D318729FC178F00D71745 /* BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoView.swift; sourceTree = "<group>"; };
 		E7B367D929F4117C00A78A4C /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B367DC29F4117C00A78A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7B367DE29F4117C00A78A4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E79D318629FC177D00D71745 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E79D318729FC178F00D71745 /* BaseInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E7B367D029F4117C00A78A4C = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +155,7 @@
 		E7B3680329F43F6900A78A4C /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				E79D318629FC177D00D71745 /* View */,
 				E7B367F329F415AC00A78A4C /* TabBarController.swift */,
 				E7B367FC29F4370C00A78A4C /* NavBarController.swift */,
 				E7B367FF29F43AC900A78A4C /* BaseController.swift */,
@@ -284,6 +295,7 @@
 				E7B3680229F43D8E00A78A4C /* UIView + ext.swift in Sources */,
 				E7B367DD29F4117C00A78A4C /* AppDelegate.swift in Sources */,
 				E7B3680929F43FC500A78A4C /* SessionController.swift in Sources */,
+				E79D318829FC178F00D71745 /* BaseInfoView.swift in Sources */,
 				E7F31AB829F58B2200149A6A /* SecondaryButton.swift in Sources */,
 				E7B3680B29F43FCF00A78A4C /* ProgressController.swift in Sources */,
 				E7B367FD29F4370C00A78A4C /* NavBarController.swift in Sources */,
