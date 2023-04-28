@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum Resources {
+enum R {
     enum Colors {
         static var active = UIColor(hexString: "#437BFE")
         static var inactive = UIColor(hexString: "#929DA5")
@@ -22,10 +22,14 @@ enum Resources {
     
     enum Strings {
         enum TabBar {
-            static var overview = "Overview"
-            static var session = "Session"
-            static var progress = "Progress"
-            static var settings = "Settings"
+            static func title(for tab: Tabs) -> String {
+                switch tab {
+                case .overview: return "Overview"
+                case .session: return "Session"
+                case .progress: return "Progress"
+                case .settings: return "Settings"
+                }
+            }
         }
         
         enum NavBar {
@@ -52,10 +56,14 @@ enum Resources {
     
     enum Images {
         enum TabBar {
-            static var overview = UIImage(named: "overviewTab")
-            static var session = UIImage(named: "sessionTab")
-            static var progress = UIImage(named: "progressTab")
-            static var settings = UIImage(named: "settingsTab")
+            static func icon(for tab: Tabs) -> UIImage? {
+                switch tab {
+                case .overview: return UIImage(named: "overviewTab")
+                case .session: return UIImage(named: "sessionTab")
+                case .progress: return UIImage(named: "progressTab")
+                case .settings: return UIImage(named: "settingsTab")
+                }
+            }
         }
     }
     
